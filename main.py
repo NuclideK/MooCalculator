@@ -12,7 +12,7 @@ import webHandler
 import chartHandler
 
 ###################################
-currentVersion = "v0.0.1"
+currentVersion = "v1.0.0"
 ###################################
 allStudents = {}
 def checkUpdates():

@@ -5,7 +5,7 @@ import webbrowser
 LogicHandler.indicateLoading("Loading " + __name__)
 
 def getLatestVersion():
-    req = request.Request('https://api.github.com/repos/NuclideK/MooCalc/releases/latest', headers={'Accept': 'application/vnd.github.v3+json'})
+    req = request.Request('https://api.github.com/repos/NuclideK/MooCalculator/releases/latest', headers={'Accept': 'application/vnd.github.v3+json'})
     data = json.loads(request.urlopen(req).read().decode('utf-8'))
     return data
 
